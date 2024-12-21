@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95%;
+}
+
+.profile-picture img {
+    width: 25vh;
+    margin: 4vh;
+    border-radius: 50%;
+}
+
+.title {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+.description p {
+    margin: 3vh;
+    width: 49vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .description p {
+        width: 80%;
+    }
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media .button a {
+    display: inline-block;
+    width: 45vh;
+    height: 50px;
+    line-height: 50px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.instagram {
+    background-color: none;
+    border: 2px solid #E1306C;
+}
+
+.instagram:hover {
+    background-color: #E1306C;
+    transition: 0.15s;
+}
+
+.youtube {
+    background-color: none;
+    border: 2px solid #FF0000;
+}
+
+.youtube:hover {
+    background-color: #FF0000;
+    transition: 0.15s;
+}
+
+.linkedin {
+    background-color: none;
+    border: 2px solid #1B455A;
+}
+
+.linkedin:hover {
+    background-color: #1B455A;
+    transition: 0.15s;
